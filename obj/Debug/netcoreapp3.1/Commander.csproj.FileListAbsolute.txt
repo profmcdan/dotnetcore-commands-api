@@ -41,3 +41,5 @@
 /Users/danielale/Documents/dotnet-projects/Commander/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
 /Users/danielale/Documents/dotnet-projects/Commander/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
 /Users/danielale/Documents/dotnet-projects/Commander/obj/Debug/netcoreapp3.1/Commander.csproj.CopyComplete
+/Users/danielale/Documents/dotnet-projects/Commander/bin/Debug/netcoreapp3.1/AutoMapper.dll
+/Users/danielale/Documents/dotnet-projects/Commander/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

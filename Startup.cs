@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
+using AutoMapper;
 using Commander.Data;
 
 namespace Commander
@@ -32,6 +33,8 @@ namespace Commander
                 options.UseNpgsql(Configuration.GetConnectionString("CommanderConnection"));
             });
             services.AddControllers();
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
             // services.AddScoped<ICommanderRepo, MockCommanderRepo>();
             services.AddScoped<ICommanderRepo, CommanderRepo>();
 
