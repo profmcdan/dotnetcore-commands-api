@@ -32,7 +32,8 @@ namespace Commander
                 options.UseNpgsql(Configuration.GetConnectionString("CommanderConnection"));
             });
             services.AddControllers();
-            services.AddScoped<ICommanderRepo, MockCommanderRepo>();
+            // services.AddScoped<ICommanderRepo, MockCommanderRepo>();
+            services.AddScoped<ICommanderRepo, CommanderRepo>();
 
         }
 
